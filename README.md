@@ -26,9 +26,8 @@ You can assign any of these roles (tick one or more):
 - Validate submissions
 - Delete submissions
 - Edit asset
-- Delete asset
+- Manage asset
 
-*Not included: “Partial submissions”, “Transfer asset”, or “Manage asset” (these are rarely used or not supported in all Kobo setups).*
 
 ---
 
