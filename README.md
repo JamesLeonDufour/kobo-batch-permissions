@@ -6,7 +6,7 @@ A **Streamlit web app** to quickly assign and update user permissions for any Ko
 
 ## 🚀 Features
 
-- Supports [kf.kobotoolbox.org](https://kf.kobotoolbox.org), [kobo.humanitarianresponse.info](https://kobo.humanitarianresponse.info), or a custom Kobo server
+- Supports [kf.kobotoolbox.org](https://kf.kobotoolbox.org), [eu.kobotoolbox.org](https://eu.kobotoolbox.org), or a custom Kobo server
 - Login with your **API token**
 - Select any project from your account
 - Paste multiple usernames at once (one per line)
