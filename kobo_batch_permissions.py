@@ -49,15 +49,14 @@ if assets:
 
 usernames = st.text_area("Usernames to add (one per line):", height=180)
 
-# Static list of permissions (excluding transfer_asset, manage_asset, partial_submissions)
+# Static list of permissions (delete permissions REMOVED)
 static_permissions = [
     {"codename": "view_asset", "name": "View asset"},
     {"codename": "add_submissions", "name": "Add submissions"},
     {"codename": "change_submissions", "name": "Edit submissions"},
     {"codename": "validate_submissions", "name": "Validate submissions"},
-    {"codename": "delete_submissions", "name": "Delete submissions"},
-    {"codename": "change_asset", "name": "Edit asset"},
-    {"codename": "delete_asset", "name": "Delete asset"}
+    {"codename": "change_asset", "name": "Edit asset"}
+    # "delete_submissions" and "delete_asset" have been removed
 ]
 
 for perm in static_permissions:
@@ -139,3 +138,4 @@ if st.button("Assign/Update Permissions"):
                 st.success(f"Permissions assigned: {', '.join(added)}")
 
 st.markdown("---")
+st.markdown("Made by **ChatGPT** for bulk user management in KoboToolbox. [Get support!](https://chat.openai.com)")
